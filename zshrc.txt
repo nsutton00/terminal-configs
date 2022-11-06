@@ -127,8 +127,8 @@ function goto(){
     locations[documents]="Documents"
     locations[downloads]="Downloads"
     locations[dls]="Downloads"
-    locations[edt]="Downloads"
-    locations[loreal]="Documents/edt/"
+    locations[edt]="Documents/edt"
+    locations[loreal]="Documents/edt/Projects/loreal-looker-bq/"
 
     cd $HOME/$locations[$1]
 }
